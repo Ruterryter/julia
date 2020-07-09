@@ -1,1 +1,1 @@
-# julia
+# Julias Artist Painting Portfolio
