@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components/macro";
+import { Gallery } from "../components/Gallery";
 
 const HomeWrapper = styled.div`
   width: 100%;
@@ -36,9 +37,8 @@ export const Home = () => {
 
       <HlDiv>
         <Title>Julia Björkengren Artist</Title>
-
       </HlDiv>
-
+      <Gallery />
     </HomeWrapper>
   );
 };
