@@ -58,7 +58,7 @@ const paintings = [
     id: 2,
     title: "Himlavalvet",
     price: 2000,
-    image: require("../assets/himlavalvet.jpg")
+    image: require("../assets/himlavalvet1.jpg")
   },
   {
     id: 3,
