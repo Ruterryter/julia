@@ -23,18 +23,15 @@ const Title = styled.h1`
   font-size: 42px;
   font-weight: 700;
   text-align: center;
-  color: #1A6575;
+  color: #64a9bc;
   @media (max-width: 768px) {
     font-size: 32px;
   }
 `;
 
 export const Home = () => {
-
-
   return (
     <HomeWrapper>
-
       <HlDiv>
         <Title>Julia Björkengren Artist</Title>
       </HlDiv>
