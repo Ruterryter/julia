@@ -1,40 +1,19 @@
 import React from "react";
 import styled from "styled-components/macro";
+import { Header } from "../components/Header";
 import { Gallery } from "../components/Gallery";
 
 const HomeWrapper = styled.div`
   width: 100%;
   background-color: #e7e6dc;
+  // background-color: #a9b2bb;
 `;
 
-
-const HlDiv = styled.div`
-  width: 100%;
-  padding: 50px 0;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: space-around;
-`;
-
-const Title = styled.h1`
-  margin-top: 20px;
-  font-family: "Poppins";
-  font-size: 42px;
-  font-weight: 700;
-  text-align: center;
-  color: #64a9bc;
-  @media (max-width: 768px) {
-    font-size: 32px;
-  }
-`;
 
 export const Home = () => {
   return (
     <HomeWrapper>
-      <HlDiv>
-        <Title>Julia Björkengren Artist</Title>
-      </HlDiv>
+      <Header />
       <Gallery />
     </HomeWrapper>
   );

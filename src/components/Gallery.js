@@ -22,13 +22,13 @@ const options = {
     thumbnailsSize: ['100px', '80px']
   },
   caption: {
-    captionColor: "#e7e6dc",
+    captionColor: "#000",
     captionFontFamily: "Raleway, sans-serif",
     captionFontWeight: "300",
     captionTextTransform: "uppercase",
   },
   settings: {
-    overlayColor: "#000",
+    overlayColor: "#e7e6dc",
     autoplaySpeed: 1500,
     transitionSpeed: 900,
   },
@@ -52,7 +52,7 @@ const paintings = [
     id: 1,
     title: "Eldflingor",
     price: 2500,
-    image: require("../assets/eldflingor.jpg")
+    image: require("../assets/himlavalvet1.jpg")
   },
   {
     id: 2,
@@ -64,25 +64,25 @@ const paintings = [
     id: 3,
     title: "Jordskred",
     price: 2000,
-    image: require("../assets/jordskred.jpg")
+    image: require("../assets/himlavalvet1.jpg")
   },
   {
     id: 4,
     title: "Kraftfull",
     price: 2500,
-    image: require("../assets/kraftfull.jpg")
+    image: require("../assets/himlavalvet1.jpg")
   },
   {
     id: 5,
     title: "Havets Djup",
     price: 2000,
-    image: require("../assets/havets-djup.jpg")
+    image: require("../assets/himlavalvet1.jpg")
   },
   {
     id: 6,
     title: "Medusan",
     price: 1500,
-    image: require("../assets/medusan.jpg")
+    image: require("../assets/himlavalvet1.jpg")
   },
 
 ];

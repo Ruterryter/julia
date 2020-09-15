@@ -3,8 +3,8 @@ import styled from "styled-components/macro";
 
 const Card = styled.div`
 
-  border-radius: 15px;
-  background-color: #000;
+  // border-radius: 15px;
+  background-color: #e7e6dc;
   margin-bottom: 20px;
   overflow: hidden;
   width: 450px;
@@ -27,11 +27,12 @@ const Painting = styled.img`
 
 const Title = styled.h3`
 margin-bottom: 7px;
-color: #e7e6dc;
+color: #64a9bc;
+font-weight: 300;
 `
 const Price = styled.h5`
   color: #64a9bc;
-  font-weight: bold;
+  font-weight: 300;
   `
 
 
