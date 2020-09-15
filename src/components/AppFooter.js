@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
-import mail from '../assets/mail.svg'
+import { Icon } from './Icon'
 
 const FooterDiv = styled.div`
   margin: 0;
@@ -30,10 +30,12 @@ const ContactLink = styled.a`
   @media (min-width: 1200px) {
     font-size:34px;
   }
-`;
+`
 
-const Icon = styled.img`
-  
+const EmailIcon = styled.svg`
+svg {
+  fill:#e7e6dc;
+}
 `
 
 const AttributionLink = styled.a`
@@ -61,10 +63,15 @@ export const AppFooter = () => {
         target="_blank"
         rel="noopener noreferrer">
         Maila mig!
-        <Icon src={mail} alt="email" />
+        </ContactLink>
+      <ContactLink>
+        <EmailIcon>
+          <Icon />
+        </EmailIcon>
       </ContactLink>
+
       <span>Video by <AttributionLink href="https://pixabay.com/users/Engin_Akyurt-3656355/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=20067"> Engin Akyurt</AttributionLink> from <AttributionLink href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=20067">Pixabay</AttributionLink> </span>
       <div>Icons made by <AttributionLink href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</AttributionLink> from <AttributionLink href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</AttributionLink></div>
-    </FooterDiv>
+    </FooterDiv >
   );
 }
