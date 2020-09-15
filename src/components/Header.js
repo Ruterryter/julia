@@ -34,6 +34,10 @@ const ArtistName = styled.h1`
   text-align: center;
   color: #477a87;
 
+  &:hover {
+    text-decoration: none;
+    color: #cfc1d1;
+
   @media (max-width: 768px) {
   font-size: 32px;
 }
