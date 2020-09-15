@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components/macro";
 import { Header } from "../components/Header";
 import { Gallery } from "../components/Gallery";
-import { Footer } from "../components/Footer";
+import { AppFooter } from "../components/AppFooter";
 
 const HomeWrapper = styled.div`
   width: 100%;
@@ -15,7 +15,7 @@ export const Home = () => {
     <HomeWrapper>
       <Header />
       <Gallery />
-      <Footer />
+      <AppFooter />
     </HomeWrapper>
   );
 };
