@@ -7,7 +7,11 @@ const InfoText = styled.p`
   font-size: 24px;
   font-weight: 300;
   text-align: center;
-  margin: 10px 60px 60px 10px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  margin-bottom: 20px;
 `
 
 const Heading = styled.h3`
@@ -15,7 +19,7 @@ const Heading = styled.h3`
   font-size: 34px;
   font-weight: 300;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 `
 
 const Portrait = styled.img`
@@ -25,6 +29,7 @@ const Portrait = styled.img`
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  margin-bottom: 50px;
 `
 
 
