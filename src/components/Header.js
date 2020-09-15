@@ -47,7 +47,8 @@ export const Header = () => {
 
   return (
     <HeaderContainer>
-      <Video autoPlay="autoplay" loop="loop" muted playsinline>
+
+      <Video autoPlay="autoplay" loop="loop" muted>
         <source src={mala} type="video/mp4" />
         Your browser does not support the video tag
     </Video>
