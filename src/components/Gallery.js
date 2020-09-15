@@ -9,6 +9,13 @@ flex-wrap: wrap;
 justify-content: space-evenly; 
 margin: 10px;
 `
+const Heading = styled.h3`
+color:  #477a87;
+font-size: 34px;
+font-weight: 300;
+text-align: center;
+margin-bottom: 50px;
+`
 
 
 const options = {
@@ -91,6 +98,7 @@ const paintings = [
 export const Gallery = () => {
   return (
     <SRLWrapper options={options} >
+      <Heading> Mina tavlor </Heading>
       <GalleryWrapper>
         {paintings.map(painting => {
           return (
