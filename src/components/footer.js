@@ -43,7 +43,6 @@ const ContactLink = styled.a`
 export const Footer = () => {
   return (
     <FooterDiv>
-
       <ContactLink
         aria-label="Julias Mail"
         href="mailto:j.bjorkengren@gmail.com"
