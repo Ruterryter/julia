@@ -40,7 +40,7 @@ const ContactLink = styled.a`
   }
 `;
 
-export const Footer = () => {
+export const AppFooter = () => {
   return (
     <FooterDiv>
       <ContactLink
