@@ -11,22 +11,13 @@ background-color: #e7e6dc;
 
 export const App = () => {
   return (
-    <BrowserRouter>
-      <SimpleReactLightbox>
-        <AppWrapper>
-          {/* <NavBar /> */}
-          <Switch>
-            <Route path="/" exact>
-              <Home />
-            </Route>
-            {/* <Route path="/about/" exact>
-            <About />
-          </Route> */}
-          </Switch>
-          {/* <Footer /> */}
-        </AppWrapper>
-      </SimpleReactLightbox>
-    </BrowserRouter>
+
+    <SimpleReactLightbox>
+      <AppWrapper>
+        <Home />
+      </AppWrapper>
+    </SimpleReactLightbox>
+
   );
 }
 

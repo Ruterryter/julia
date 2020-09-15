@@ -3,6 +3,7 @@ import styled from "styled-components/macro";
 import { Header } from "../components/Header";
 import { Gallery } from "../components/Gallery";
 import { AppFooter } from "../components/AppFooter";
+import { About } from "./About"
 
 const HomeWrapper = styled.div`
   width: 100%;
@@ -15,6 +16,7 @@ export const Home = () => {
     <HomeWrapper>
       <Header />
       <Gallery />
+      <About />
       <AppFooter />
     </HomeWrapper>
   );

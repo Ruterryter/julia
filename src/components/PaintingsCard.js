@@ -10,6 +10,11 @@ const Card = styled.div`
   flex-direction: column; 
   justify-content: flex-start;
   cursor: pointer;
+
+  &:hover {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
 `;
 
 const DetailsContainer = styled.div`

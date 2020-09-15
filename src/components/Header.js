@@ -14,6 +14,7 @@ const HeaderContainer = styled.div`
 const Video = styled.video`
     width: 100%;
     height: 100%; 
+    opacity: 0.7;
     `
 
 const NameContainer = styled.div`

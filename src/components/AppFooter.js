@@ -1,32 +1,25 @@
 import React from 'react';
 import styled from 'styled-components'
+import mail from '../assets/mail.svg'
 
 const FooterDiv = styled.div`
   margin: 0;
   width: 100%;
-  height: 300px;
   display: flex;
-  flex-flow: row nowrap;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
   background-color: #477a87;
-
-  @media (max-width: 768px) {
-    flex-flow: column nowrap;
-    justify-content: center;
-    position: relative;
-  }
+  padding-top: 20px;
+  padding-bottom: 20px;
 `;
 
 const ContactLink = styled.a`
-  padding-left: 20px;
   font-family: "Poppins";
   font-size: 18px;
   font-weight: 400;
-  color: #fff;
+  color: #e7e6dc;
   text-decoration: none;
   text-transform: uppercase;
-  text-align: center;
   transition: all 0.3s;
 
   &:hover {
@@ -36,9 +29,28 @@ const ContactLink = styled.a`
 
   @media (min-width: 1200px) {
     font-size:34px;
-    margin-top: 20px;
   }
 `;
+
+const Icon = styled.img`
+  
+`
+
+const AttributionLink = styled.a`
+font-family: "Poppins";
+font-size: 14px;
+font-weight: 300;
+color: #e7e6dc;
+text-decoration: none;
+transition: all 0.3s;
+
+&:hover {
+  text-decoration: none;
+  color: #cfc1d1;
+}
+`
+
+
 
 export const AppFooter = () => {
   return (
@@ -47,9 +59,12 @@ export const AppFooter = () => {
         aria-label="Julias Mail"
         href="mailto:j.bjorkengren@gmail.com"
         target="_blank"
-        rel="noopener noreferrer"
-      > Maila mig!
-        </ContactLink>
+        rel="noopener noreferrer">
+        Maila mig!
+        <Icon src={mail} alt="email" />
+      </ContactLink>
+      <span>Video by <AttributionLink href="https://pixabay.com/users/Engin_Akyurt-3656355/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=20067"> Engin Akyurt</AttributionLink> from <AttributionLink href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=20067">Pixabay</AttributionLink> </span>
+      <div>Icons made by <AttributionLink href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</AttributionLink> from <AttributionLink href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</AttributionLink></div>
     </FooterDiv>
   );
 }
