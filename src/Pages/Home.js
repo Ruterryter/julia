@@ -7,7 +7,6 @@ import { Footer } from "../components/Footer";
 const HomeWrapper = styled.div`
   width: 100%;
   background-color: #e7e6dc;
-  // background-color: #a9b2bb;
 `;
 
 
