@@ -56,7 +56,10 @@ export const AppFooter = () => {
         rel="noopener noreferrer">
         Maila mig!
         </ContactLink>
-      <ContactLink>
+      <ContactLink aria-label="Julias Mail"
+        href="mailto:j.bjorkengren@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer">
         <Icon width={50} height={"auto"} fill={"#e7e6dc"} />
       </ContactLink>
 
