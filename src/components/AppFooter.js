@@ -11,6 +11,7 @@ const FooterDiv = styled.div`
   background-color: #477a87;
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: 'Marcellus', serif;
 `;
 
 const ContactLink = styled.a`
