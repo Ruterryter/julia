@@ -108,7 +108,7 @@ const paintings = [
   {
     id: 7,
     title: "Djuren",
-    price: 1000,
+    price: 800,
     image: require("../assets/djuren.jpg"),
     description: "Akryl på Canvas 45 x 45 cm",
     sold: true
