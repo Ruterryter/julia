@@ -105,6 +105,22 @@ const paintings = [
     description: "Akryl på Canvas 80 x 80 cm",
     sold: false
   },
+  {
+    id: 7,
+    title: "Djuren",
+    price: 1000,
+    image: require("../assets/djuren.jpg"),
+    description: "Akryl på Canvas 45 x 45 cm",
+    sold: true
+  },
+  {
+    id: 8,
+    title: "Havsbrus",
+    price: 1500,
+    image: require("../assets/havsbrus.jpg"),
+    description: "Akryl på Canvas 80 x 80 cm",
+    sold: true
+  },
 ];
 
 export const Gallery = () => {

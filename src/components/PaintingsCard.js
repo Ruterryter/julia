@@ -68,7 +68,7 @@ export const PaintingsCard = ({ title, price, image, description, sold }) => {
           <Title>{title}</Title>
           <Description>{description}</Description>
           <Price>{price} kr</Price>
-          {(sold === true) && <Status>{sold} Såld! </Status>}
+          {sold && <Status>{sold} Såld! </Status>}
         </DetailsContainer>
       </Card>
     </>
