@@ -10,6 +10,7 @@ const Card = styled.div`
   flex-direction: column; 
   justify-content: flex-start;
   cursor: pointer;
+  position: relative;
 
   &:hover {
     border: 1px solid;
@@ -47,10 +48,18 @@ const Description = styled.h5`
   font-family: 'Marcellus', serif;
   margin-bottom: 20px;
 `
+const Status = styled.h5`
+  color: #ef1048;
+  font-weight: 500;
+  font-family: 'Marcellus', serif;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+`
 
-
-
-export const PaintingsCard = ({ title, price, image, description }) => {
+export const PaintingsCard = ({ title, price, image, description, sold }) => {
   return (
     <>
       <Card>
@@ -59,6 +68,7 @@ export const PaintingsCard = ({ title, price, image, description }) => {
           <Title>{title}</Title>
           <Description>{description}</Description>
           <Price>{price} kr</Price>
+          {(sold === true) && <Status>{sold} Såld! </Status>}
         </DetailsContainer>
       </Card>
     </>
