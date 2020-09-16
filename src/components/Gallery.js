@@ -61,37 +61,43 @@ const paintings = [
     id: 1,
     title: "Havets Djup",
     price: 2000,
-    image: require("../assets/havets-djup.jpg")
+    image: require("../assets/havets-djup.jpg"),
+    description: "Akryl på Canvas 80 x 80cm "
   },
   {
     id: 2,
     title: "Eldflingor",
     price: 2500,
-    image: require("../assets/eldflingor.jpg")
+    image: require("../assets/eldflingor.jpg"),
+    description: "Akryl på Canvas 100 x 100cm"
   },
   {
     id: 3,
     title: "Himlavalvet",
     price: 2000,
-    image: require("../assets/himlavalvet1.jpg")
+    image: require("../assets/himlavalvet1.jpg"),
+    description: "Akryl på Canvas 80 x 100cm "
   },
   {
     id: 4,
     title: "Jordskred",
     price: 2000,
-    image: require("../assets/jordskred.jpg")
+    image: require("../assets/jordskred.jpg"),
+    description: "Akryl på Canvas 80 x 80cm"
   },
   {
     id: 5,
     title: "Kraftfull",
     price: 2500,
-    image: require("../assets/kraftfull.jpg")
+    image: require("../assets/kraftfull.jpg"),
+    description: "Akryl på Canvas 80 x 100cm"
   },
   {
     id: 6,
     title: "Medusan",
     price: 1500,
-    image: require("../assets/medusan.jpg")
+    image: require("../assets/medusan.jpg"),
+    description: "Akryl på Canvas 80 x 80 cm "
   },
 
 ];
@@ -103,7 +109,7 @@ export const Gallery = () => {
       <GalleryWrapper>
         {paintings.map(painting => {
           return (
-            <PaintingsCard title={painting.title} price={painting.price} image={painting.image} />
+            <PaintingsCard title={painting.title} price={painting.price} image={painting.image} description={painting.description} />
           )
         })}
       </GalleryWrapper>
