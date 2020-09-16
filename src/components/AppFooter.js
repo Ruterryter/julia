@@ -32,12 +32,6 @@ const ContactLink = styled.a`
   }
 `
 
-const EmailIcon = styled.svg`
-svg {
-  fill:#e7e6dc;
-}
-`
-
 const AttributionLink = styled.a`
 font-family: "Poppins";
 font-size: 14px;
@@ -52,8 +46,6 @@ transition: all 0.3s;
 }
 `
 
-
-
 export const AppFooter = () => {
   return (
     <FooterDiv>
@@ -65,9 +57,7 @@ export const AppFooter = () => {
         Maila mig!
         </ContactLink>
       <ContactLink>
-        <EmailIcon>
-          <Icon />
-        </EmailIcon>
+        <Icon width={50} height={"auto"} fill={"#e7e6dc"} />
       </ContactLink>
 
       <span>Video by <AttributionLink href="https://pixabay.com/users/Engin_Akyurt-3656355/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=20067"> Engin Akyurt</AttributionLink> from <AttributionLink href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=20067">Pixabay</AttributionLink> </span>
