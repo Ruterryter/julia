@@ -15,6 +15,7 @@ font-size: 34px;
 font-weight: 300;
 text-align: center;
 margin-bottom: 50px;
+font-family: 'Marcellus SC', serif;
 `
 
 
@@ -58,39 +59,39 @@ const options = {
 const paintings = [
   {
     id: 1,
-    title: "Eldflingor",
-    price: 2500,
-    image: require("../assets/himlavalvet1.jpg")
+    title: "Havets Djup",
+    price: 2000,
+    image: require("../assets/havets-djup.jpg")
   },
   {
     id: 2,
+    title: "Eldflingor",
+    price: 2500,
+    image: require("../assets/eldflingor.jpg")
+  },
+  {
+    id: 3,
     title: "Himlavalvet",
     price: 2000,
     image: require("../assets/himlavalvet1.jpg")
   },
   {
-    id: 3,
+    id: 4,
     title: "Jordskred",
     price: 2000,
-    image: require("../assets/himlavalvet1.jpg")
-  },
-  {
-    id: 4,
-    title: "Kraftfull",
-    price: 2500,
-    image: require("../assets/himlavalvet1.jpg")
+    image: require("../assets/jordskred.jpg")
   },
   {
     id: 5,
-    title: "Havets Djup",
-    price: 2000,
-    image: require("../assets/himlavalvet1.jpg")
+    title: "Kraftfull",
+    price: 2500,
+    image: require("../assets/kraftfull.jpg")
   },
   {
     id: 6,
     title: "Medusan",
     price: 1500,
-    image: require("../assets/himlavalvet1.jpg")
+    image: require("../assets/medusan.jpg")
   },
 
 ];

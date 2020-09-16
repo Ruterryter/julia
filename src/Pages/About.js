@@ -12,10 +12,12 @@ const InfoText = styled.p`
   margin-right: auto;
   width: 75%;
   margin-bottom: 20px;
+  font-family: 'Marcellus', serif;
 `
 
 const Heading = styled.h3`
   color:  #477a87;
+  font-family: 'Marcellus SC', serif;
   font-size: 34px;
   font-weight: 300;
   text-align: center;

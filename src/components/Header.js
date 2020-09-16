@@ -29,8 +29,8 @@ const NameContainer = styled.div`
 `
 
 const ArtistName = styled.h1`
-  font-family: 'Monoton';
-  font-size: 42px;
+  font-family: 'Marcellus SC', serif;
+  font-size: 50px;
   font-weight: 700;
   text-align: center;
   color: #477a87;

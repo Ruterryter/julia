@@ -31,12 +31,14 @@ const Painting = styled.img`
 
 const Title = styled.h3`
   margin-bottom: 7px;
-  color: #64a9bc;
+  color: #477a87;
   font-weight: 300;
+  font-family: 'Marcellus', serif;
 `
 const Price = styled.h5`
   color: #64a9bc;
   font-weight: 300;
+  font-family: 'Marcellus', serif;
   `
 
 

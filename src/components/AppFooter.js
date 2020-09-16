@@ -14,12 +14,11 @@ const FooterDiv = styled.div`
 `;
 
 const ContactLink = styled.a`
-  font-family: "Poppins";
+  font-family: 'Marcellus', serif;
   font-size: 18px;
   font-weight: 400;
   color: #e7e6dc;
   text-decoration: none;
-  text-transform: uppercase;
   transition: all 0.3s;
 
   &:hover {
@@ -33,7 +32,7 @@ const ContactLink = styled.a`
 `
 
 const AttributionLink = styled.a`
-font-family: "Poppins";
+font-family: 'Marcellus', serif;
 font-size: 14px;
 font-weight: 300;
 color: #e7e6dc;
