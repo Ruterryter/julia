@@ -5,7 +5,7 @@ const Card = styled.div`
   background-color: #e7e6dc;
   margin-bottom: 20px;
   overflow: hidden;
-  width: 450px;
+  width: 400px;
   display: flex; 
   flex-direction: column; 
   justify-content: flex-start;

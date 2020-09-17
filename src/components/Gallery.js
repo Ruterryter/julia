@@ -18,7 +18,6 @@ margin-bottom: 50px;
 font-family: 'Marcellus SC', serif;
 `
 
-
 const options = {
   thumbnails: {
     showThumbnails: true,

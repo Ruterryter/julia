@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const InfoText = styled.p`
   color:  #477a87;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
   text-align: center;
   display: block;
@@ -33,8 +33,6 @@ const Portrait = styled.img`
   border-radius: 50%;
   margin-bottom: 50px;
 `
-
-
 
 export const About = (props) => {
   return (

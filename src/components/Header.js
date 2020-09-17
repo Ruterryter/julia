@@ -8,7 +8,7 @@ const HeaderContainer = styled.div`
   min-height: 200px;
   max-height: 500px;
   overflow: hidden;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 `
 
 const Video = styled.video`
