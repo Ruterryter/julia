@@ -28,6 +28,7 @@ const options = {
     thumbnailsGap: '1px',
     thumbnailsOpacity: 0.4,
     thumbnailsPosition: 'bottom',
+    thumbnailsContainerPadding: "15px",
     thumbnailsSize: ['100px', '80px']
   },
   caption: {
@@ -119,6 +120,14 @@ const paintings = [
     price: 1500,
     image: require("../assets/havsbrus.jpg"),
     description: "Akryl på Canvas 80 x 80 cm",
+    sold: true
+  },
+  {
+    id: 9,
+    title: "Lekfullt vatten",
+    price: 800,
+    image: require("../assets/lekfullt-vatten.jpg"),
+    description: "Akryl på Canvas 50 x 50 cm",
     sold: true
   },
 ];
