@@ -107,6 +107,14 @@ const paintings = [
   },
   {
     id: 7,
+    title: "Havsanemoner",
+    price: 2000,
+    image: require("../assets/havsanemoner.jpg"),
+    description: "Akryl på Canvas 80 x 80 cm",
+    sold: false
+  },
+  {
+    id: 8,
     title: "Djuren",
     price: 800,
     image: require("../assets/djuren.jpg"),
@@ -114,7 +122,7 @@ const paintings = [
     sold: true
   },
   {
-    id: 8,
+    id: 9,
     title: "Havsbrus",
     price: 1500,
     image: require("../assets/havsbrus.jpg"),
