@@ -38,7 +38,7 @@ export const About = (props) => {
   return (
     <>
       <Heading>Om mig</Heading>
-      <Portrait src={require("../assets/julia.JPG")} />
+      <Portrait src={require("../assets/julia2021.jpg")} />
       <InfoText>
         Mitt namn är Julia Björkengren. Jag bor i Skåne tillsammans med mina två katter.
         Jag älskar att måla stort och att låta färgerna och känslan leda mig. Inspirationen hämtar jag ofta ur musik.

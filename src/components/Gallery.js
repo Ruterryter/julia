@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components/macro";
-import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
+import { SRLWrapper } from "simple-react-lightbox";
 import { PaintingsCard } from "../components/PaintingsCard"
 
 const GalleryWrapper = styled.div`
@@ -27,7 +27,6 @@ const options = {
     thumbnailsGap: '1px',
     thumbnailsOpacity: 0.4,
     thumbnailsPosition: 'bottom',
-    thumbnailsContainerPadding: "15px",
     thumbnailsSize: ['100px', '80px']
   },
   caption: {
@@ -67,22 +66,54 @@ const paintings = [
   },
   {
     id: 2,
-    title: "Eldflingor",
-    price: 2500,
-    image: require("../assets/eldflingor.jpg"),
-    description: "Akryl på Canvas 100 x 100cm",
+    title: "Havsanemoner",
+    price: 2000,
+    image: require("../assets/havsanemoner3.jpg"),
+    description: "Akryl på Canvas 80 x 80 cm",
     sold: false
   },
   {
     id: 3,
-    title: "Himlavalvet",
-    price: 2000,
-    image: require("../assets/himlavalvet1.jpg"),
-    description: "Akryl på Canvas 80 x 100cm",
+    title: "Medusan",
+    price: 1500,
+    image: require("../assets/medusan2.jpg"),
+    description: "Akryl på Canvas 80 x 80 cm",
     sold: false
   },
   {
     id: 4,
+    title: "Istider",
+    price: 1500,
+    image: require("../assets/istider.jpg"),
+    description: "Akryl med aska på Canvas 60 x 60 cm",
+    sold: false
+  },
+  {
+    id: 5,
+    title: "Eldflingor",
+    price: 2500,
+    image: require("../assets/eldflingor.jpg"),
+    description: "Akryl på Canvas 100 x 100cm",
+    sold: true
+  },
+  {
+    id: 6,
+    title: "Vulkan",
+    price: 1500,
+    image: require("../assets/vulkan.jpg"),
+    description: "Akryl med aska på Canvas 70 x 50cm",
+    sold: false
+  },
+  {
+    id: 7,
+    title: "Draken",
+    price: 2500,
+    image: require("../assets/draken.jpg"),
+    description: "Akryl på Canvas 50 x 70cm",
+    sold: false
+  },
+  {
+    id: 8,
     title: "Jordskred",
     price: 2000,
     image: require("../assets/jordskred.jpg"),
@@ -90,31 +121,7 @@ const paintings = [
     sold: false
   },
   {
-    id: 5,
-    title: "Kraftfull",
-    price: 2500,
-    image: require("../assets/kraftfull.jpg"),
-    description: "Akryl på Canvas 80 x 100cm",
-    sold: false
-  },
-  {
-    id: 6,
-    title: "Medusan",
-    price: 1500,
-    image: require("../assets/medusan.jpg"),
-    description: "Akryl på Canvas 80 x 80 cm",
-    sold: false
-  },
-  {
-    id: 7,
-    title: "Havsanemoner",
-    price: 2000,
-    image: require("../assets/havsanemoner.jpg"),
-    description: "Akryl på Canvas 80 x 80 cm",
-    sold: false
-  },
-  {
-    id: 8,
+    id: 9,
     title: "Djuren",
     price: 800,
     image: require("../assets/djuren.jpg"),
@@ -122,7 +129,23 @@ const paintings = [
     sold: true
   },
   {
-    id: 9,
+    id: 10,
+    title: "Kraftfull",
+    price: 2500,
+    image: require("../assets/kraftfull.jpg"),
+    description: "Akryl på Canvas 80 x 100cm",
+    sold: false
+  }, 
+  {
+    id: 11,
+    title: "Himlavalvet",
+    price: 2000,
+    image: require("../assets/himlavalvet1.jpg"),
+    description: "Akryl på Canvas 80 x 100cm",
+    sold: true
+  },
+  {
+    id: 12,
     title: "Havsbrus",
     price: 1500,
     image: require("../assets/havsbrus.jpg"),
@@ -130,7 +153,7 @@ const paintings = [
     sold: true
   },
   {
-    id: 9,
+    id: 13,
     title: "Lekfullt vatten",
     price: 800,
     image: require("../assets/lekfullt-vatten.jpg"),
