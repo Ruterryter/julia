@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9870a026.css",
+    "main.js": "/static/js/main.9c1f379e.js",
+    "static/media/mala.mp4": "/static/media/mala.117e574461bf89368c3d.mp4",
+    "static/media/draken.jpg": "/static/media/draken.38f50fecc005ac78357a.jpg",
+    "static/media/medusan2.jpg": "/static/media/medusan2.63b4655e7e1c9161fd3a.jpg",
+    "static/media/lekfullt-vatten.jpg": "/static/media/lekfullt-vatten.690f19b8df5287055b46.jpg",
+    "static/media/djuren.jpg": "/static/media/djuren.e60411cd6287912b9b3d.jpg",
+    "static/media/havsanemoner3.jpg": "/static/media/havsanemoner3.2106c1b2caf5daa31c64.jpg",
+    "static/media/eldflingor.jpg": "/static/media/eldflingor.fdc947bf9c00ffde1f46.jpg",
+    "static/media/havets-djup.jpg": "/static/media/havets-djup.4ca679ce7f66ec1df1c5.jpg",
+    "static/media/istider.jpg": "/static/media/istider.27f77f1ff260e0d2284c.jpg",
+    "static/media/himlavalvet1.jpg": "/static/media/himlavalvet1.67b756119fd438afb140.jpg",
+    "static/media/kraftfull.jpg": "/static/media/kraftfull.8ea763f477f93b9521b7.jpg",
+    "static/media/havsbrus.jpg": "/static/media/havsbrus.1b205bd29d1b20375547.jpg",
+    "static/media/jordskred.jpg": "/static/media/jordskred.0185af477f9555ad6435.jpg",
+    "static/media/vulkan.jpg": "/static/media/vulkan.a5047d6fd5ed5c5ddb76.jpg",
+    "static/media/julia2021.jpg": "/static/media/julia2021.b4132cd4058a4d83effe.jpg",
+    "index.html": "/index.html",
+    "main.9870a026.css.map": "/static/css/main.9870a026.css.map",
+    "main.9c1f379e.js.map": "/static/js/main.9c1f379e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9870a026.css",
+    "static/js/main.9c1f379e.js"
+  ]
+}
